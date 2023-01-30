@@ -15,4 +15,5 @@ Actualmente, se encuentra en beta, por lo cual pronto lanzaré la versión final
  - [Alura Latam](https://www.aluracursos.com/)
  - [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/alura-latam/)
  
-
+ ## Autor
+- [@RGelBAnthony](https://github.com/RGelBAnthony)
