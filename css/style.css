@@ -8,9 +8,16 @@ header {
 }
 
 .caja{
-    width: 940px;
-    position: relative;
+    width: 100%;
+    padding: 8em;
     margin: 0 auto;
+    display: flex;
+
+}
+#logoPrincipal{
+    
+ flex-direction: row;
+ background:img src="img/logo.png";
 }
 
 nav{
