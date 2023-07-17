@@ -161,11 +161,11 @@
     transform: scale(1.01);
   }
   footer {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
     height: 15vh;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
   }
   .copyright {
