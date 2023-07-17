@@ -1,0 +1,174 @@
+  *{
+  border: 0%;
+  margin: 0%;
+  font-family: 'inter';
+  font-style: normal;
+  font-size: 32px;
+  line-height: 150%;
+  }
+  body{
+    background: conic-gradient(from 315deg, #79F1A5, #0F5DAD);
+    overflow: hidden;
+  }
+  #Logo{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    width: 1rem;
+    }
+  main{
+    display: flex;
+  }
+  .textArea1{
+    border: none;
+    color: #0a3871;
+    text-transform: lowercase;
+    border-radius: 32px;
+    resize: none;
+    padding: 2rem;
+    margin-left: 5rem;
+  }
+  ::placeholder{ color: #0a3871; }
+  .textArea1:focus{
+    outline: none;
+  }
+  .textArea2{
+    background-image: url(/img/imagen-principal.png);
+    background-repeat: no-repeat;
+    border: none;
+    border: 24px;
+    color:#0a3871;
+    resize: none;
+    border-radius: 32px;
+    padding: 1rem;
+    margin-left: 4rem;
+    background-color: #ffffff;
+    }
+  .textArea2:focus{
+    outline: none;
+  }
+  /*Botones*/
+  .divBotones{
+    display: flex;
+    margin-top: 18px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+  }
+  .botonE{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: white;
+    cursor:pointer;
+    height: 67px;
+    width: 328px;
+    margin-right: 3rem;
+    margin-left: 5rem;
+
+    transition: 4s;
+
+    color: #e9ecf8;
+    background: #141E30;  
+    background: -webkit-linear-gradient(to top, #243B55, #141E30); 
+    background: linear-gradient(to top, #243B55, #141E30);
+    
+  }
+  .botonD{
+   
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+    transition: 4s;
+
+    color: #e9ecf8;
+    background: #141E30;  
+    background: -webkit-linear-gradient(to top, #243B55, #141E30); 
+    background: linear-gradient(to top, #243B55, #141E30);
+
+  }
+  .botonB{
+   
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 3rem;
+
+    transition: 3s;
+
+    color: #e9ecf8;
+    background: #141E30;  
+    background: -webkit-linear-gradient(to top, #243B55, #141E30); 
+    background: linear-gradient(to top, #243B55, #141E30);
+
+  }
+  #BtnCopy{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor:pointer;
+    height: 67px;
+    position: absolute;
+    width: 330px;
+    height: 10%;
+    margin-left: 4rem;
+  }
+  p{
+    font-size: 25px;
+    margin-left: 8rem;
+  }
+  /*Botones de interaccion animacion*/
+  #BtnCopy:hover {
+    color: #ffffff;
+    background: #000428;
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #000428);
+  }
+  #BtnCopy:active {
+    transform: scale(1.01);
+  }
+  .botonE:hover {
+    color: #ffffff;
+    background: #000428;
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #000428);
+  }
+  .botonE:active {
+    transform: scale(1.01);
+  }
+  .botonD:hover {
+    color: #ffffff;
+    background: #000428;
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #000428);
+  }
+  .botonD:active {
+    transform: scale(1.01);
+  }
+  .botonB:hover {
+    color: #ffffff;
+    background: #000428;
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #000428);
+  }
+  .botonB:active {
+    transform: scale(1.01);
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 15vh;
+    width: 100%;
+
+  }
+  .copyright {
+    color: #141E30;
+    font-style: italic;
+  }

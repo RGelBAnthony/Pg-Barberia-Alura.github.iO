@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Encriptador Alura</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="icon href="img/icon.ico">
+
+  </head>
+  <body>
+    <header>
+      <!-- logo de encabezado -->
+      <img src="img/logo1.svg" alt="icono2" id="Logo">
+    </header>
+    <main>
+      <section>
+        <textarea class="textArea1" placeholder="Ingrese el texto aquí" rows="10" cols="50"></textarea>
+        <div>
+          <p><img src="img/Vector-Indicaciones.svg" alt="icono">Letras minúsculas y sin acentos</p>
+        </div>
+        <div class="divBotones">
+          <button type="button" onclick="btnEncriptar()" class="botonE">Encriptar Texto</button>
+          <button type="button" onclick="btnDeseencriptar()" class="botonD">Desencriptar</button>
+          <button type="button" onclick="borrarTextAreaUno()" class="botonB">Borrar</button>
+        </div>
+      </section>
+      <section>
+        <textarea class="textArea2" id="textArea-2" onclick="btnEncriptar()" rows="10" cols="12" ></textarea>
+        <div>
+          <button id="BtnCopy" onclick="copiarTexto()">Copiar Mensaje Encriptado</button>
+        </div>        
+      </section>
+    </main>
+    <footer>
+      <p class="copyright">&copy Copyright Alura Anthony R- 2023</p>
+    </footer>
+    <!-- Funciones de JavaScript -->
+    <script 
+    src="js/jscrip.js">
+    </script>
+  </body>
+</html>
