@@ -7,7 +7,7 @@ Actualmente, se encuentra en beta, por lo cual pronto lanzaré la versión final
 
 ## 🔗 Links:
 
-    https://rgelbanthony.github.io/Pg-Barberia-Alura.github.io/
+  https://rgelbanthony.github.io/Pg-Barberia-Alura.github.iO/
 
 ## Agradecimientos:
 
